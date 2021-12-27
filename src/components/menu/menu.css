@@ -1,0 +1,27 @@
+.menu {
+  display: none;
+  font-size: 1.3rem;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font: 2rem;
+  padding: 2% 5%;
+  border: 2px solid #ccc;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.card p {
+  padding: 2% 5%;
+}
+
+.icon {
+  flex: 1 1 100%;
+}
+
+.active {
+  display: block;
+}
